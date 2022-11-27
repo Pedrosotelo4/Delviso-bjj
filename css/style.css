@@ -1,12 +1,13 @@
 .menu{
     display: flex;
     justify-content: flex-end;
-}
-
-#body{
     background-color: black;
 }
+
+
 .foto-equipo{
     width: 1340px;
     height: 750px;
 }
+
+
