@@ -3,5 +3,18 @@
     justify-content: flex-end;
     color: white;
 }
-
-
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foto-equipo{
+    width: 1340px;
+    height: 750px;
+}
+.foto-horarios{
+    width: 1340px;
+    height: 500px;
+}
+.foto-profes{
+    width: 150px;
+}
