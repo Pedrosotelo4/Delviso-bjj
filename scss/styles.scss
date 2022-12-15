@@ -25,3 +25,39 @@
     margin: 0px;
     padding: 0px;
     }
+    
+    $estilos:(
+        color:black,
+        centro:center,
+        tfuente: 25px,
+        bordes: 0px,
+    );
+    .div{
+        background-color: map-get($map: $estilos, $key:color );
+        text-align: map-get($map: $estilos, $key:centro );
+        padding: map-get($map: $estilos, $key:bordes );
+        margin:map-get($map: $estilos, $key:bordes )
+        
+    }
+.card{
+    background-color: green;
+    border: 15px;
+    padding: 10px;
+
+}
+.usercard{
+    @extend .card
+}
+
+@mixin crearBordes(){
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.foto-profes{
+    @include crearBordes();
+
+}

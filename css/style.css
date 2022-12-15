@@ -22,10 +22,24 @@ body {
   padding: 0px;
 }
 
-.foto-profes {
-  width: 150px;
-  margin: 0px;
+
+
+.div {
+  background-color: black;
+  text-align: center;
   padding: 0px;
+  margin: 0px;
+}
+
+.card, .usercard {
+  background-color: green;
+  border: 15px;
+  padding: 10px;
+}
+
+.foto-profes {
+  border: 2px solid rgb(42, 42, 42);
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
