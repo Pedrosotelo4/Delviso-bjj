@@ -2,62 +2,44 @@
     justify-content: flex-end;
     color: white;
     }
-    
-    
-    body{
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    }
-    .foto-equipo{
+
+@mixin crearBordes(){
+    border: 2px solid rgb(42, 42, 42);
+    width: 150px;
+    padding: 0px;
+    margin: 0px;  
+}
+.foto-profes{
+    @include crearBordes();
+    border-radius: 10px;
+}
+
+@mixin Equipo(){
     width: 1340px;
     height: 750px;
     margin: 0px;
     padding: 0px;
-    }
-    .foto-horarios{
-    width: 1340px;
-    height: 500px;
-    margin: 0px;
-    padding: 0px;
-    }
-    .foto-profes{
-    width: 150px;
-    margin: 0px;
-    padding: 0px;
-    }
-    
-    $estilos:(
-        color:black,
-        centro:center,
-        tfuente: 25px,
-        bordes: 0px,
-    );
-    .div{
-        background-color: map-get($map: $estilos, $key:color );
-        text-align: map-get($map: $estilos, $key:centro );
-        padding: map-get($map: $estilos, $key:bordes );
-        margin:map-get($map: $estilos, $key:bordes )
-        
-    }
-.card{
-    background-color: green;
-    border: 15px;
-    padding: 10px;
-
 }
-.usercard{
-    @extend .card
-}
-
-@mixin crearBordes(){
-    border: 2px solid rgb(42, 42, 42);
+.foto-equipo{
+    @include Equipo;
     border-radius: 10px;
-    width: 150px;
-    padding: 0px;
-    margin: 0px;
-
 }
-.foto-profes{
-    @include crearBordes();
+$estilos:(
+    tamaño:1340px,
+    color:white,
+    ancho:500px,
+    tFuente: 35px,
+    centro:center,
+    bordes:10px,
 
+);
+
+.foto-horarios{
+width: map-get($map: $estilos, $key:tamaño );
+height: map-get($map: $estilos, $key:ancho );
+border-radius: map-get($map: $estilos, $key:bordes );
+}
+.texto-redes{
+    font-size: map-get($map: $estilos, $key:tFuente );
+    color: map-get($map: $estilos, $key:color );
 }
