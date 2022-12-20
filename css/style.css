@@ -37,4 +37,34 @@
 .origen-bjj{
   font-family: 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width:320px) {
+  .foto-equipo{
+      width: 320px;
+      height: 200px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .foto-horarios{
+      width: 320px;
+    }
+  }
+  @media screen and (max-width:320px) {
+    .cinturones{
+        width: 320px;
+      height: 200px;}
+      }
+      @media screen and (max-width:320px) {
+        .mapa{
+            width: 320px;
+            height: 300px;}
+        }
+        @media screen and (max-width:320px) {
+          .foto-profes{
+              width: 130px;
+              height: 130px;
+          }
+          
+      }
 /*# sourceMappingURL=style.css.map */
