@@ -1,6 +1,7 @@
 .menu {
   justify-content: flex-end;
-  color: white;
+  background-color: darkgray;
+  border-radius: 10px;
 }
 
 .foto-profes {
@@ -29,5 +30,11 @@
   font-size: 35px;
   color: white;
 }
-
+.cinturones{
+  width: 1340px;
+  height: 500px;
+}
+.origen-bjj{
+  font-family: 'Times New Roman', Times, serif;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,8 @@
 .menu{
     justify-content: flex-end;
-    color: white;
-    }
+background-color: darkgray; 
+  border-radius: 10px;
+ }
 
 @mixin crearBordes(){
     border: 2px solid rgb(42, 42, 42);
