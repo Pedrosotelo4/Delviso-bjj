@@ -40,24 +40,24 @@
 
 @media screen and (max-width:320px) {
   .foto-equipo{
-      width: 320px;
+      width: 250px;
       height: 200px;
   }
 }
 
 @media screen and (max-width:320px) {
   .foto-horarios{
-      width: 320px;
+      width: 250px;
     }
   }
   @media screen and (max-width:320px) {
     .cinturones{
-        width: 320px;
+        width: 200px;
       height: 200px;}
       }
       @media screen and (max-width:320px) {
         .mapa{
-            width: 320px;
+            width: 200px;
             height: 300px;}
         }
         @media screen and (max-width:320px) {
